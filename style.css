@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background: #111;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+.skills-list span {
+  background: #eee;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.project-card {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+form {
+  max-width: 400px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
